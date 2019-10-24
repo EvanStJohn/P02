@@ -122,32 +122,32 @@ P02/fast:
 	$(MAKE) -f CMakeFiles\P02.dir\build.make CMakeFiles/P02.dir/build
 .PHONY : P02/fast
 
-main.obj: main.cpp.obj
+P02.obj: P02.cpp.obj
 
-.PHONY : main.obj
+.PHONY : P02.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\P02.dir\build.make CMakeFiles/P02.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+P02.cpp.obj:
+	$(MAKE) -f CMakeFiles\P02.dir\build.make CMakeFiles/P02.dir/P02.cpp.obj
+.PHONY : P02.cpp.obj
 
-main.i: main.cpp.i
+P02.i: P02.cpp.i
 
-.PHONY : main.i
+.PHONY : P02.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\P02.dir\build.make CMakeFiles/P02.dir/main.cpp.i
-.PHONY : main.cpp.i
+P02.cpp.i:
+	$(MAKE) -f CMakeFiles\P02.dir\build.make CMakeFiles/P02.dir/P02.cpp.i
+.PHONY : P02.cpp.i
 
-main.s: main.cpp.s
+P02.s: P02.cpp.s
 
-.PHONY : main.s
+.PHONY : P02.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\P02.dir\build.make CMakeFiles/P02.dir/main.cpp.s
-.PHONY : main.cpp.s
+P02.cpp.s:
+	$(MAKE) -f CMakeFiles\P02.dir\build.make CMakeFiles/P02.dir/P02.cpp.s
+.PHONY : P02.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... P02
 	@echo ... edit_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... P02.obj
+	@echo ... P02.i
+	@echo ... P02.s
 .PHONY : help
 
 

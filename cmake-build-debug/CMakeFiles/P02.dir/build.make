@@ -56,27 +56,27 @@ include CMakeFiles/P02.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/P02.dir/flags.make
 
-CMakeFiles/P02.dir/main.cpp.obj: CMakeFiles/P02.dir/flags.make
-CMakeFiles/P02.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\evan4\CLionProjects\P02\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/P02.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\P02.dir\main.cpp.obj -c C:\Users\evan4\CLionProjects\P02\main.cpp
+CMakeFiles/P02.dir/P02.cpp.obj: CMakeFiles/P02.dir/flags.make
+CMakeFiles/P02.dir/P02.cpp.obj: ../P02.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\evan4\CLionProjects\P02\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/P02.dir/P02.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\P02.dir\P02.cpp.obj -c C:\Users\evan4\CLionProjects\P02\P02.cpp
 
-CMakeFiles/P02.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/P02.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\evan4\CLionProjects\P02\main.cpp > CMakeFiles\P02.dir\main.cpp.i
+CMakeFiles/P02.dir/P02.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/P02.dir/P02.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\evan4\CLionProjects\P02\P02.cpp > CMakeFiles\P02.dir\P02.cpp.i
 
-CMakeFiles/P02.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/P02.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\evan4\CLionProjects\P02\main.cpp -o CMakeFiles\P02.dir\main.cpp.s
+CMakeFiles/P02.dir/P02.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/P02.dir/P02.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\evan4\CLionProjects\P02\P02.cpp -o CMakeFiles\P02.dir\P02.cpp.s
 
 # Object files for target P02
 P02_OBJECTS = \
-"CMakeFiles/P02.dir/main.cpp.obj"
+"CMakeFiles/P02.dir/P02.cpp.obj"
 
 # External object files for target P02
 P02_EXTERNAL_OBJECTS =
 
-P02.exe: CMakeFiles/P02.dir/main.cpp.obj
+P02.exe: CMakeFiles/P02.dir/P02.cpp.obj
 P02.exe: CMakeFiles/P02.dir/build.make
 P02.exe: CMakeFiles/P02.dir/linklibs.rsp
 P02.exe: CMakeFiles/P02.dir/objects1.rsp
