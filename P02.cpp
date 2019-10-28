@@ -17,7 +17,6 @@ int Random::getRandom(int low, int high)
 class World : public Random{
 private:
     int survivors = 7000000;
-    int population = 7000000;
     void earthQuakes();
     void tsunamis();
     void volcanoes();
@@ -35,65 +34,65 @@ public:
 
 void World::earthQuakes()
 {
-    double percent = getRandom(0, 10);
+    int percent = getRandom(0, 10);
 
-    survivors = survivors - (population * (percent / 100));
+    survivors = survivors - (percent * 70000);
 }
 
 void World::tsunamis()
 {
-    double percent = getRandom(0, 20);
+    int percent = getRandom(1, 20);
 
-    survivors = survivors - (population * (percent / 100));
+    survivors = survivors - (percent * 70000);
 }
 
 void World::volcanoes()
 {
-    double percent = getRandom(0, 10);
+    int percent = getRandom(1, 10);
 
-    survivors = survivors - (population * (percent / 100));
+    survivors = survivors - (percent * 70000);
 }
 
 void World::iceAge()
 {
-    double percent = getRandom(0, 10);
+    int percent = getRandom(1, 10);
 
-    survivors = survivors - (population * (percent / 100));
+    survivors = survivors - (percent * 70000);
 }
 
 void World::meteorite()
 {
-    double percent = getRandom(0, 10);
+    int percent = getRandom(1, 10);
 
-    survivors = survivors - (population * (percent / 100));
+    survivors = survivors - (percent * 70000);
 }
 
 void World::hunger()
 {
-    double percent = getRandom(0, 10);
+    int percent = getRandom(1, 10);
 
-    survivors = survivors - (population * (percent / 100));
+    survivors = survivors - (percent * 70000);
 }
 
 void World::fires()
 {
-    double percent = getRandom(0, 10);
+    int percent = getRandom(1, 10);
 
-    survivors = survivors - (population * (percent / 100));
+    survivors = survivors - (percent * 70000);
 }
 
 void World::zombies()
 {
-    double percent = getRandom(0, 10);
+    int percent = getRandom(1, 10);
 
-    survivors = survivors - (population * (percent / 100));
+    survivors = survivors - (percent * 70000);
 }
 
 void World::hurricanes()
 {
-    double percent = getRandom(0, 10);
+    int percent = getRandom(1, 10);
 
-    survivors = survivors - (population * (percent / 100));
+    survivors = survivors - (percent * 70000);
 }
 
 void World::newWorld()
