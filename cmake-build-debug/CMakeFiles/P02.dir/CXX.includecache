@@ -11,8 +11,6 @@ iostream
 -
 stdlib.h
 -
-stdio.h
--
 time.h
 -
 
